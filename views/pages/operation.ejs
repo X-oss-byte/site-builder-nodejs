@@ -7,15 +7,13 @@
 </div>
 <div class="form-container">
 	<div class="input-div">
-		<input class="form-control" value="<%= operationID %>" readOnly />
+		<input class="form-control" value="Operation ID" readOnly />
 	</div>
-	<button class="btn" type="submit" onclick="window.location.reload()">
-		Refresh Operation Status
-	</button>
+	<button class="btn" type="submit">Refresh Operation Status</button>
 </div>
 <div class="services">
 	<div class="details">
-		<p><%= operationMessage %>..</p>
+		<p>operationMessage..</p>
 	</div>
 </div>
 
@@ -26,7 +24,7 @@
 	</p>
 	<div class="details">
 		<a
-			href="http://<%= displayName %>.kinsta.cloud/wp-admin/"
+			href="http://displayName.kinsta.cloud/wp-admin/"
 			target="_blank"
 			rel="noreferrer"
 			class="detail-link"
@@ -35,7 +33,7 @@
 			<FiExternalLink />
 		</a>
 		<a
-			href="http://<%= displayName %>.kinsta.cloud/"
+			href="http://displayName.kinsta.cloud/"
 			target="_blank"
 			rel="noreferrer"
 			class="detail-link"
